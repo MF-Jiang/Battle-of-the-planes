@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="Info" fx:controller="com.comp2059.app.controller.InfoController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: #999933ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="Back" focusTraversable="false" layoutX="211.0" layoutY="571.0" mnemonicParsing="false" onAction="#BackMenu" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: red;" text="Back" textFill="#ffe100">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Label layoutX="228.0" layoutY="173.0" prefHeight="218.0" prefWidth="764.0" text="Controls: Left Arrow=Move Left,Right Arrow=Move Right,Up Arrow= Move Up, Down Arrow=Move Down, Space=Fire." textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="228.0" layoutY="90.0" prefHeight="218.0" prefWidth="764.0" text="Rules:You control a space shuttle and asteroids are in your path,  you must avoid them at all costs by either dodging them or destroying with your laser beam." textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="365.0" layoutY="62.0" text="Space Asteroids" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="61.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

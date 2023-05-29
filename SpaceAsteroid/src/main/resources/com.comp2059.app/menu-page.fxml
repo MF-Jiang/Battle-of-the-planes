@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MenuPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: #999933ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.comp2059.app.controller.MenuController">
+   <children>
+      <Button fx:id="next" focusTraversable="false" layoutX="201.0" layoutY="561.0" mnemonicParsing="false" onAction="#LoadinNextStage" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: red;" text="Start" textFill="#ffe100">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="845.0" layoutY="561.0" mnemonicParsing="false" onAction="#QuitGame" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: red;" text="Quit" textFill="#ffe100">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Label layoutX="355.0" layoutY="52.0" text="Space Asteroids" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="61.0" />
+         </font>
+      </Label>
+      <ImageView id="menubackground" fitHeight="394.0" fitWidth="596.0" layoutX="302.0" layoutY="163.0">
+         <image>
+            <Image url="@../com/comp2059/app/img/artwork.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Option" focusTraversable="false" layoutX="418.0" layoutY="561.0" mnemonicParsing="false" onAction="#LoadinoptionStage" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: red;" text="Option" textFill="#ffe100">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="Info" focusTraversable="false" layoutX="641.0" layoutY="561.0" mnemonicParsing="false" onAction="#LoadinfoStage" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: red;" text="Info" textFill="#ffe100">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

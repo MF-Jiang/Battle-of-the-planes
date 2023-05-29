@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.text.Text?>
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" style="-fx-background-color: #999933ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.comp2059.app.controller.OptionController">
+    <!--<fx:define>
+       <String fx:id="chosecolor" fx:value="-fx-background-color: black;"/>
+    </fx:define>-->
+    <children>
+        <Button fx:id="Back" focusTraversable="false" layoutX="211.0" layoutY="571.0" mnemonicParsing="false" onAction="#BackMenu" prefHeight="58.0" prefWidth="153.0" style="-fx-background-color: red;" text="Back" textFill="#ffe100">
+            <font>
+                <Font name="System Bold" size="28.0" />
+            </font>
+        </Button>
+        <Label layoutX="365.0" layoutY="62.0" text="Space Asteroids" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="61.0" />
+            </font>
+        </Label>
+        <Label layoutX="211.0" layoutY="164.0" text="Choose a background color:" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="34.0" />
+            </font>
+        </Label>
+        <ColorPicker fx:id="colorpick" layoutX="492.0" layoutY="240.0" onAction="#choosecolor" prefHeight="58.0" prefWidth="216.0">
+            <value>
+                <Color />
+            </value>
+        </ColorPicker>
+        <Pane fx:id="HighPane" layoutX="422.0" layoutY="324.0" prefHeight="242.0" prefWidth="365.0" style="-fx-background-color: White;">
+            <children>
+                <Text fx:id="text1" layoutX="13.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="339.44024658203125">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text2" layoutX="13.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="339.44024658203125">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text3" layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="339.44024658203125">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text4" layoutX="14.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="339.44024658203125">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Text fx:id="text5" layoutX="14.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="339.44024658203125">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Text>
+                <Button fx:id="Delete" layoutX="248.0" layoutY="196.0" mnemonicParsing="false" onAction="#Deletedata" prefHeight="32.0" prefWidth="104.0" text="Delete history" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

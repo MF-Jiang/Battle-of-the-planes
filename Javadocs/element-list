@@ -1,0 +1,10 @@
+module:com.vexed.vexed
+com.comp2059.app
+com.comp2059.app.asteroid
+com.comp2059.app.boss
+com.comp2059.app.Color
+com.comp2059.app.controller
+com.comp2059.app.factory
+com.comp2059.app.img
+com.comp2059.app.props
+com.comp2059.app.sounds
