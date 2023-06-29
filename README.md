@@ -1,11 +1,7 @@
-# AE2DMS-CW-Good2Go
+# Battle-of-the-planes
 # Contributors
-### Module Convenor
-- Lee Boon Giin (Bryan)
-- Heng Yu
-### Team Members
-- Shujun Jiang ssysj1 20320552
-- Luhui Zhou biylz17 20319917
+- Shujun Jiang 
+- Luhui Zhou 
 
 ## Development environment
 This game is a computer game, the development language is java, jdk 16, testing environment for Windows system.
